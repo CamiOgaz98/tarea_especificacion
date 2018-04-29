@@ -11,7 +11,11 @@ Algoritmo pelin_jaja
 	Escribir "cual es su color de pelo?"
 	leer color_pelo
 	
-	si(color_pelo = castaño)
+	si(edad <=18)
+	   escribir "usted es mayor de edad"
+	 sino 
+	    escribir "usted es menor de edad"
+	si(color_pelo = castaÃ±o)
 	   escribir "usted es bello"
 	 sino 
 	    escribir "usted es feo jaja" 
